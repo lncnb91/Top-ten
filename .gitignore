@@ -2,4 +2,4 @@ config/database.yml
 config/.database.yml.swp
 log/*
 tmp/*
-
+db/schema.rb
