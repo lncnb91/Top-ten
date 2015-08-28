@@ -19,6 +19,9 @@ class DeviseCreateAdmins < ActiveRecord::Migration
       t.string   :current_sign_in_ip
       t.string   :last_sign_in_ip
 
+      ## Role
+      t.string :role, default: "reviewer"
+
       ## Confirmable
       # t.string   :confirmation_token
       # t.datetime :confirmed_at
